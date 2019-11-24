@@ -1,7 +1,7 @@
 # EECS 731 Project 4
 
-This is Andre Kurait's third project for EECS 731, Data Science in Fall 2019.
-For this project, I analyzed several clustering models to link similar movies.
+This is Andre Kurait's fourth project for EECS 731, Data Science in Fall 2019.
+For this project, I analyzed several regressing models to predict football scores.
 
 ## Project Requirements
 ### NFL, MLB, NBA and Soccer scores
@@ -20,18 +20,11 @@ https://github.com/fivethirtyeight/data/tree/master/soccer-spi
 ## Project structure
 ```bash
 .
-├── MovieLens.ipynb
 ├── README.md
+├── Sports.ipynb
 └── data
-    ├── README.txt
-    ├── links.csv
-    ├── movies.csv
-    ├── ratings.csv
-    └── tags.csv
+    └── nfl_games.csv
 ```
 
-## Data
-I got the data from https://www.kaggle.com/kingburrito666/shakespeare-plays 
-
 ## Conclusion
-Overall, I was able to achieve over 80% accuracy with a Random Forrest and almost 80% accuracy with a Decision Tree indicating that this is an easy classification problem.
+Overall, I was not able to achieve great accuracy in predicting scores, but if it was easy then everyone could make money doing it.
